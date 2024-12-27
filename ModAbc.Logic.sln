@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModAbc.Logic", "ModAbc.Logic\ModAbc.Logic.csproj", "{814A896D-3ACE-4904-9EBF-B397784392CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModAbc.View", "ModAbc.View\ModAbc.View.csproj", "{42599681-AB5A-43BE-A691-01945BAF1361}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{814A896D-3ACE-4904-9EBF-B397784392CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814A896D-3ACE-4904-9EBF-B397784392CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814A896D-3ACE-4904-9EBF-B397784392CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814A896D-3ACE-4904-9EBF-B397784392CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42599681-AB5A-43BE-A691-01945BAF1361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42599681-AB5A-43BE-A691-01945BAF1361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42599681-AB5A-43BE-A691-01945BAF1361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42599681-AB5A-43BE-A691-01945BAF1361}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {023BE014-DB29-4782-9FEC-F2FB1E004681}
+	EndGlobalSection
+EndGlobal

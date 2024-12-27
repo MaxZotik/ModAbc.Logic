@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<ModAbcLogicConfig>
+	<AppObject>
+		<InputChannel>2800</InputChannel>
+		<FileName>C:\Program Files\SCADA\Thinning\HourData.exe</FileName>
+		<WorkingDirectory>C:\Program Files\SCADA\Thinning</WorkingDirectory>
+	</AppObject>
+</ModAbcLogicConfig>

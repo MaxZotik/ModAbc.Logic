@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<RootNamespace>Scada.Server.Modules.ModAbc.View</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ExtExternalTools">
+      <HintPath>..\..\..\..\Program Files\SCADA\ScadaAdmin\Lib\ExtExternalTools.dll</HintPath>
+    </Reference>
+    <Reference Include="ModAbc.Logic">
+      <HintPath>..\ModAbc.Logic\bin\Debug\net8.0\ModAbc.Logic.dll</HintPath>
+    </Reference>
+    <Reference Include="ScadaCommon">
+      <HintPath>..\..\..\..\Program Files\SCADA\ScadaComm\ScadaCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="ScadaCommon.Forms">
+      <HintPath>..\..\..\..\Program Files\SCADA\ScadaAdmin\ScadaCommon.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="ScadaCommon.Log">
+      <HintPath>..\..\..\..\Program Files\SCADA\ScadaAdmin\ScadaCommon.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="ScadaServerCommon">
+      <HintPath>..\..\..\..\Program Files\SCADA\ScadaAdmin\ScadaServerCommon.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
